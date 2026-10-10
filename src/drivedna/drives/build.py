@@ -1,5 +1,4 @@
 """Turn raw play-by-play into a drive table and an ordered drive-plays table."""
-from pathlib import Path
 
 import polars as pl
 
