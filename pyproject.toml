@@ -1,0 +1,31 @@
+[project]
+name = "drivedna"
+version = "0.1.0"
+description = "NFL drive-level style discovery and effectiveness analysis"
+requires-python = ">=3.10"
+dependencies = [
+  "nflreadpy",
+  "polars",
+  "pandas",
+  "duckdb",
+  "pyarrow",
+  "scikit-learn",
+  "statsmodels",
+  "plotly",
+  "umap-learn",
+  "jupyter",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+app = ["streamlit"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100

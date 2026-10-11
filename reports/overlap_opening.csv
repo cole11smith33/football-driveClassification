@@ -1,0 +1,6 @@
+style,mean_own_propensity,share_below_0_05,context_only_accuracy
+Balanced (inside runs),0.2314,0.0008,0.1207
+Balanced (outside runs),0.2062,0.0028,0.0396
+Deep-shot,0.1436,0.009,0.0
+"Pass-only, up-tempo",0.3134,0.0018,0.4293
+Run-first,0.2788,0.0016,0.7837

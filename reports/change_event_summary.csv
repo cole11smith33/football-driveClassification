@@ -1,0 +1,5 @@
+event,n,mean_shift,lo,hi,diff_vs_no_change,diff_lo,diff_hi
+no change,139,3.3067,3.1569,3.4695,,,
+new QB only,80,3.4615,3.2331,3.6969,0.1548,-0.125,0.4264
+new coach only,38,3.9619,3.518,4.436,0.6552,0.1814,1.1713
+new coach + new QB,31,4.2592,3.6248,4.9493,0.9525,0.2808,1.6758

@@ -1,0 +1,4 @@
+spec,mse,improvement_vs_previous,lo,hi
+controls only,8.54384,,,
++ opening style,8.51511,0.02873,0.01973,0.03756
++ style x opponent scheme,8.51681,-0.0017,-0.00368,0.0003

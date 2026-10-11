@@ -1,0 +1,5 @@
+look,sack_rate,dropbacks,look_type
+4 or fewer rushers,0.056,118945,blitz
+blitz (5+ rushers),0.0823,47974,blitz
+zone coverage,0.0235,81367,man/zone (2018+)
+man coverage,0.0307,47013,man/zone (2018+)
