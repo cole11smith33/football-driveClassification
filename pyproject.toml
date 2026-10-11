@@ -18,6 +18,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest", "ruff"]
+app = ["streamlit"]
 
 [build-system]
 requires = ["setuptools>=68"]
