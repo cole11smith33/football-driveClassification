@@ -1,0 +1,289 @@
+team,season,distance,biggest_shift,shift_direction,coach,qb,hc_changed,qb_changed,prev_coach,prev_qb,event
+ARI,2017,2.1591,"open_Pass-only, up-tempo",less,Bruce Arians,C.Palmer,0.0,0.0,Bruce Arians,C.Palmer,no change
+ARI,2018,3.3576,drive_Hurry-up,less,Steve Wilks,J.Rosen,1.0,1.0,Bruce Arians,C.Palmer,new coach + new QB
+ARI,2019,7.8892,drive_No-huddle,more,Kliff Kingsbury,K.Murray,1.0,1.0,Steve Wilks,J.Rosen,new coach + new QB
+ARI,2020,3.0708,open_Balanced (inside runs),more,Kliff Kingsbury,K.Murray,0.0,0.0,Kliff Kingsbury,K.Murray,no change
+ARI,2021,2.3719,"open_Pass-only, up-tempo",more,Kliff Kingsbury,K.Murray,0.0,0.0,Kliff Kingsbury,K.Murray,no change
+ARI,2022,2.0308,open_Deep-shot,less,Kliff Kingsbury,K.Murray,0.0,0.0,Kliff Kingsbury,K.Murray,no change
+ARI,2023,8.3367,drive_No-huddle,less,Jonathan Gannon,K.Murray,1.0,0.0,Kliff Kingsbury,K.Murray,new coach only
+ARI,2024,4.73,drive_Ground-based,less,Jonathan Gannon,K.Murray,0.0,0.0,Jonathan Gannon,K.Murray,no change
+ARI,2025,3.3436,open_Balanced (outside runs),more,Jonathan Gannon,J.Brissett,0.0,1.0,Jonathan Gannon,K.Murray,new QB only
+ATL,2017,3.895,"open_Pass-only, up-tempo",less,Dan Quinn,M.Ryan,0.0,0.0,Dan Quinn,M.Ryan,no change
+ATL,2018,3.0249,open_Run-first,less,Dan Quinn,M.Ryan,0.0,0.0,Dan Quinn,M.Ryan,no change
+ATL,2019,2.454,open_Deep-shot,less,Dan Quinn,M.Ryan,0.0,0.0,Dan Quinn,M.Ryan,no change
+ATL,2020,2.6111,open_Balanced (outside runs),less,Raheem Morris,M.Ryan,1.0,0.0,Dan Quinn,M.Ryan,new coach only
+ATL,2021,3.0868,drive_Hurry-up,less,Arthur Smith,M.Ryan,1.0,0.0,Raheem Morris,M.Ryan,new coach only
+ATL,2022,4.9668,drive_Quick-game,less,Arthur Smith,M.Mariota,0.0,1.0,Arthur Smith,M.Ryan,new QB only
+ATL,2023,1.5489,drive_Hurry-up,less,Arthur Smith,D.Ridder,0.0,1.0,Arthur Smith,M.Mariota,new QB only
+ATL,2024,3.2212,drive_Hurry-up,more,Raheem Morris,K.Cousins,1.0,1.0,Arthur Smith,D.Ridder,new coach + new QB
+ATL,2025,1.5626,drive_Vertical,more,Raheem Morris,M.Penix,0.0,1.0,Raheem Morris,K.Cousins,new QB only
+BAL,2017,3.4862,drive_No-huddle,less,John Harbaugh,J.Flacco,0.0,0.0,John Harbaugh,J.Flacco,no change
+BAL,2018,3.8561,drive_Quick-game,less,John Harbaugh,J.Flacco,0.0,0.0,John Harbaugh,J.Flacco,no change
+BAL,2019,2.6638,open_Run-first,more,John Harbaugh,L.Jackson,0.0,1.0,John Harbaugh,J.Flacco,new QB only
+BAL,2020,2.8502,open_Balanced (outside runs),more,John Harbaugh,L.Jackson,0.0,0.0,John Harbaugh,L.Jackson,no change
+BAL,2021,4.4597,drive_Hurry-up,more,John Harbaugh,L.Jackson,0.0,0.0,John Harbaugh,L.Jackson,no change
+BAL,2022,1.6819,open_Deep-shot,less,John Harbaugh,L.Jackson,0.0,0.0,John Harbaugh,L.Jackson,no change
+BAL,2023,1.7771,"open_Pass-only, up-tempo",more,John Harbaugh,L.Jackson,0.0,0.0,John Harbaugh,L.Jackson,no change
+BAL,2024,4.8292,drive_Vertical,more,John Harbaugh,L.Jackson,0.0,0.0,John Harbaugh,L.Jackson,no change
+BAL,2025,3.6019,drive_Vertical,less,John Harbaugh,L.Jackson,0.0,0.0,John Harbaugh,L.Jackson,no change
+BUF,2017,3.3427,open_Deep-shot,less,Sean McDermott,T.Taylor,1.0,0.0,Rex Ryan,T.Taylor,new coach only
+BUF,2018,4.8274,open_Balanced (outside runs),less,Sean McDermott,J.Allen,0.0,1.0,Sean McDermott,T.Taylor,new QB only
+BUF,2019,3.5875,drive_No-huddle,more,Sean McDermott,J.Allen,0.0,0.0,Sean McDermott,J.Allen,no change
+BUF,2020,4.821,"open_Pass-only, up-tempo",more,Sean McDermott,J.Allen,0.0,0.0,Sean McDermott,J.Allen,no change
+BUF,2021,2.6693,drive_Hurry-up,less,Sean McDermott,J.Allen,0.0,0.0,Sean McDermott,J.Allen,no change
+BUF,2022,4.2194,open_Deep-shot,more,Sean McDermott,J.Allen,0.0,0.0,Sean McDermott,J.Allen,no change
+BUF,2023,4.0977,open_Deep-shot,less,Sean McDermott,J.Allen,0.0,0.0,Sean McDermott,J.Allen,no change
+BUF,2024,4.719,drive_No-huddle,less,Sean McDermott,J.Allen,0.0,0.0,Sean McDermott,J.Allen,no change
+BUF,2025,2.6742,drive_Vertical,less,Sean McDermott,J.Allen,0.0,0.0,Sean McDermott,J.Allen,no change
+CAR,2017,2.4371,drive_No-huddle,less,Ron Rivera,C.Newton,0.0,0.0,Ron Rivera,C.Newton,no change
+CAR,2018,2.9904,drive_Vertical,less,Ron Rivera,C.Newton,0.0,0.0,Ron Rivera,C.Newton,no change
+CAR,2019,3.3449,drive_Vertical,more,Ron Rivera,K.Allen,0.0,1.0,Ron Rivera,C.Newton,new QB only
+CAR,2020,4.8636,open_Deep-shot,less,Matt Rhule,T.Bridgewater,1.0,1.0,Ron Rivera,K.Allen,new coach + new QB
+CAR,2021,4.5072,drive_No-huddle,more,Matt Rhule,S.Darnold,0.0,1.0,Matt Rhule,T.Bridgewater,new QB only
+CAR,2022,4.9109,open_Balanced (outside runs),less,Steve Wilks,B.Mayfield,1.0,1.0,Matt Rhule,S.Darnold,new coach + new QB
+CAR,2023,2.7113,open_Run-first,less,Frank Reich,B.Young,1.0,1.0,Steve Wilks,B.Mayfield,new coach + new QB
+CAR,2024,3.2479,drive_No-huddle,less,Dave Canales,B.Young,1.0,0.0,Frank Reich,B.Young,new coach only
+CAR,2025,2.9607,drive_Vertical,less,Dave Canales,B.Young,0.0,0.0,Dave Canales,B.Young,no change
+CHI,2017,3.6435,drive_Ground-based,more,John Fox,M.Trubisky,0.0,1.0,John Fox,M.Barkley,new QB only
+CHI,2018,6.37,drive_Ground-based,less,Matt Nagy,M.Trubisky,1.0,0.0,John Fox,M.Trubisky,new coach only
+CHI,2019,3.6871,drive_No-huddle,more,Matt Nagy,M.Trubisky,0.0,0.0,Matt Nagy,M.Trubisky,no change
+CHI,2020,4.5346,drive_Hurry-up,less,Matt Nagy,M.Trubisky,0.0,0.0,Matt Nagy,M.Trubisky,no change
+CHI,2021,2.4573,open_Run-first,more,Matt Nagy,J.Fields,0.0,1.0,Matt Nagy,M.Trubisky,new QB only
+CHI,2022,3.5954,drive_Ground-based,more,Matt Eberflus,J.Fields,1.0,0.0,Matt Nagy,J.Fields,new coach only
+CHI,2023,4.1601,drive_Quick-game,more,Matt Eberflus,J.Fields,0.0,0.0,Matt Eberflus,J.Fields,no change
+CHI,2024,4.1459,drive_No-huddle,more,Matt Eberflus,C.Williams,0.0,1.0,Matt Eberflus,J.Fields,new QB only
+CHI,2025,4.6598,drive_No-huddle,less,Ben Johnson,C.Williams,1.0,0.0,Matt Eberflus,C.Williams,new coach only
+CIN,2017,3.1338,open_Balanced (inside runs),more,Marvin Lewis,A.Dalton,0.0,0.0,Marvin Lewis,A.Dalton,no change
+CIN,2018,2.0812,open_Deep-shot,more,Marvin Lewis,A.Dalton,0.0,0.0,Marvin Lewis,A.Dalton,no change
+CIN,2019,3.2816,open_Run-first,more,Zac Taylor,A.Dalton,1.0,0.0,Marvin Lewis,A.Dalton,new coach only
+CIN,2020,2.9312,drive_Ground-based,less,Zac Taylor,J.Burrow,0.0,1.0,Zac Taylor,A.Dalton,new QB only
+CIN,2021,1.7978,open_Balanced (inside runs),less,Zac Taylor,J.Burrow,0.0,0.0,Zac Taylor,J.Burrow,no change
+CIN,2022,5.3132,open_Run-first,less,Zac Taylor,J.Burrow,0.0,0.0,Zac Taylor,J.Burrow,no change
+CIN,2023,2.182,drive_Hurry-up,less,Zac Taylor,J.Burrow,0.0,0.0,Zac Taylor,J.Burrow,no change
+CIN,2024,2.8149,drive_Quick-game,more,Zac Taylor,J.Burrow,0.0,0.0,Zac Taylor,J.Burrow,no change
+CIN,2025,3.3926,drive_Quick-game,less,Zac Taylor,J.Burrow,0.0,0.0,Zac Taylor,J.Burrow,no change
+CLE,2017,3.4132,open_Deep-shot,more,Hue Jackson,D.Kizer,0.0,1.0,Hue Jackson,C.Kessler,new QB only
+CLE,2018,3.0368,open_Deep-shot,less,Gregg Williams,B.Mayfield,1.0,1.0,Hue Jackson,D.Kizer,new coach + new QB
+CLE,2019,1.8217,open_Deep-shot,more,Freddie Kitchens,B.Mayfield,1.0,0.0,Gregg Williams,B.Mayfield,new coach only
+CLE,2020,2.8036,open_Balanced (inside runs),less,Kevin Stefanski,B.Mayfield,1.0,0.0,Freddie Kitchens,B.Mayfield,new coach only
+CLE,2021,1.5706,drive_Vertical,less,Kevin Stefanski,B.Mayfield,0.0,0.0,Kevin Stefanski,B.Mayfield,no change
+CLE,2022,2.7214,open_Balanced (outside runs),more,Kevin Stefanski,J.Brissett,0.0,1.0,Kevin Stefanski,B.Mayfield,new QB only
+CLE,2023,4.5112,drive_Ground-based,less,Kevin Stefanski,J.Flacco,0.0,1.0,Kevin Stefanski,J.Brissett,new QB only
+CLE,2024,3.5082,open_Deep-shot,less,Kevin Stefanski,J.Winston,0.0,1.0,Kevin Stefanski,J.Flacco,new QB only
+CLE,2025,3.4035,drive_Ground-based,more,Kevin Stefanski,S.Sanders,0.0,1.0,Kevin Stefanski,J.Winston,new QB only
+DAL,2017,3.0241,open_Balanced (outside runs),more,Jason Garrett,D.Prescott,0.0,0.0,Jason Garrett,D.Prescott,no change
+DAL,2018,3.3355,drive_Quick-game,more,Jason Garrett,D.Prescott,0.0,0.0,Jason Garrett,D.Prescott,no change
+DAL,2019,4.0181,open_Deep-shot,more,Jason Garrett,D.Prescott,0.0,0.0,Jason Garrett,D.Prescott,no change
+DAL,2020,4.5359,open_Deep-shot,less,Mike McCarthy,A.Dalton,1.0,1.0,Jason Garrett,D.Prescott,new coach + new QB
+DAL,2021,4.7205,drive_Vertical,more,Mike McCarthy,D.Prescott,0.0,1.0,Mike McCarthy,A.Dalton,new QB only
+DAL,2022,3.7784,drive_Ground-based,more,Mike McCarthy,D.Prescott,0.0,0.0,Mike McCarthy,D.Prescott,no change
+DAL,2023,4.2401,drive_Ground-based,less,Mike McCarthy,D.Prescott,0.0,0.0,Mike McCarthy,D.Prescott,no change
+DAL,2024,2.6453,open_Deep-shot,less,Mike McCarthy,C.Rush,0.0,1.0,Mike McCarthy,D.Prescott,new QB only
+DAL,2025,3.2243,drive_Hurry-up,less,Brian Schottenheimer,D.Prescott,1.0,1.0,Mike McCarthy,C.Rush,new coach + new QB
+DEN,2017,2.8747,"open_Pass-only, up-tempo",less,Vance Joseph,T.Siemian,1.0,0.0,Gary Kubiak,T.Siemian,new coach only
+DEN,2018,4.5284,open_Deep-shot,less,Vance Joseph,C.Keenum,0.0,1.0,Vance Joseph,T.Siemian,new QB only
+DEN,2019,4.0472,drive_Hurry-up,less,Vic Fangio,J.Flacco,1.0,1.0,Vance Joseph,C.Keenum,new coach + new QB
+DEN,2020,3.9411,drive_Vertical,more,Vic Fangio,D.Lock,0.0,1.0,Vic Fangio,J.Flacco,new QB only
+DEN,2021,1.8821,open_Deep-shot,less,Vic Fangio,T.Bridgewater,0.0,1.0,Vic Fangio,D.Lock,new QB only
+DEN,2022,2.9224,open_Balanced (inside runs),more,Nathaniel Hackett,R.Wilson,1.0,1.0,Vic Fangio,T.Bridgewater,new coach + new QB
+DEN,2023,3.5822,open_Balanced (inside runs),less,Sean Payton,R.Wilson,1.0,0.0,Nathaniel Hackett,R.Wilson,new coach only
+DEN,2024,3.8792,open_Balanced (inside runs),more,Sean Payton,B.Nix,0.0,1.0,Sean Payton,R.Wilson,new QB only
+DEN,2025,3.0494,open_Balanced (outside runs),more,Sean Payton,B.Nix,0.0,0.0,Sean Payton,B.Nix,no change
+DET,2017,3.7292,drive_Quick-game,less,Jim Caldwell,M.Stafford,0.0,0.0,Jim Caldwell,M.Stafford,no change
+DET,2018,6.1208,drive_No-huddle,less,Matt Patricia,M.Stafford,1.0,0.0,Jim Caldwell,M.Stafford,new coach only
+DET,2019,3.4072,open_Deep-shot,more,Matt Patricia,M.Stafford,0.0,0.0,Matt Patricia,M.Stafford,no change
+DET,2020,2.5976,drive_Hurry-up,more,Matt Patricia,M.Stafford,0.0,0.0,Matt Patricia,M.Stafford,no change
+DET,2021,4.502,open_Run-first,more,Dan Campbell,J.Goff,1.0,1.0,Matt Patricia,M.Stafford,new coach + new QB
+DET,2022,4.0737,open_Balanced (outside runs),more,Dan Campbell,J.Goff,0.0,0.0,Dan Campbell,J.Goff,no change
+DET,2023,1.8998,open_Balanced (inside runs),less,Dan Campbell,J.Goff,0.0,0.0,Dan Campbell,J.Goff,no change
+DET,2024,2.3889,drive_Hurry-up,less,Dan Campbell,J.Goff,0.0,0.0,Dan Campbell,J.Goff,no change
+DET,2025,3.6048,drive_Hurry-up,more,Dan Campbell,J.Goff,0.0,0.0,Dan Campbell,J.Goff,no change
+GB,2017,5.3051,open_Deep-shot,less,Mike McCarthy,B.Hundley,0.0,1.0,Mike McCarthy,A.Rodgers,new QB only
+GB,2018,5.0297,open_Balanced (outside runs),more,Mike McCarthy,A.Rodgers,0.0,1.0,Mike McCarthy,B.Hundley,new QB only
+GB,2019,2.6354,drive_No-huddle,less,Matt LaFleur,A.Rodgers,1.0,0.0,Mike McCarthy,A.Rodgers,new coach only
+GB,2020,3.3166,"open_Pass-only, up-tempo",less,Matt LaFleur,A.Rodgers,0.0,0.0,Matt LaFleur,A.Rodgers,no change
+GB,2021,2.7612,drive_Vertical,less,Matt LaFleur,A.Rodgers,0.0,0.0,Matt LaFleur,A.Rodgers,no change
+GB,2022,3.5011,open_Run-first,more,Matt LaFleur,A.Rodgers,0.0,0.0,Matt LaFleur,A.Rodgers,no change
+GB,2023,3.2502,open_Run-first,less,Matt LaFleur,J.Love,0.0,1.0,Matt LaFleur,A.Rodgers,new QB only
+GB,2024,3.7198,"open_Pass-only, up-tempo",less,Matt LaFleur,J.Love,0.0,0.0,Matt LaFleur,J.Love,no change
+GB,2025,3.0189,"open_Pass-only, up-tempo",more,Matt LaFleur,J.Love,0.0,0.0,Matt LaFleur,J.Love,no change
+HOU,2017,5.0026,drive_No-huddle,more,Bill O'Brien,T.Savage,0.0,1.0,Bill O'Brien,B.Osweiler,new QB only
+HOU,2018,3.333,open_Deep-shot,less,Bill O'Brien,D.Watson,0.0,1.0,Bill O'Brien,T.Savage,new QB only
+HOU,2019,3.0307,open_Balanced (inside runs),more,Bill O'Brien,D.Watson,0.0,0.0,Bill O'Brien,D.Watson,no change
+HOU,2020,4.0276,drive_Hurry-up,more,Romeo Crennel,D.Watson,1.0,0.0,Bill O'Brien,D.Watson,new coach only
+HOU,2021,5.4165,drive_Hurry-up,less,David Culley,D.Mills,1.0,1.0,Romeo Crennel,D.Watson,new coach + new QB
+HOU,2022,3.011,open_Balanced (inside runs),less,Lovie Smith,D.Mills,1.0,0.0,David Culley,D.Mills,new coach only
+HOU,2023,2.9459,open_Deep-shot,more,DeMeco Ryans,C.Stroud,1.0,1.0,Lovie Smith,D.Mills,new coach + new QB
+HOU,2024,5.0554,open_Deep-shot,less,DeMeco Ryans,C.Stroud,0.0,0.0,DeMeco Ryans,C.Stroud,no change
+HOU,2025,2.6519,"open_Pass-only, up-tempo",less,DeMeco Ryans,C.Stroud,0.0,0.0,DeMeco Ryans,C.Stroud,no change
+IND,2017,4.1502,open_Run-first,more,Chuck Pagano,J.Brissett,0.0,1.0,Chuck Pagano,A.Luck,new QB only
+IND,2018,4.8146,drive_No-huddle,more,Frank Reich,A.Luck,1.0,1.0,Chuck Pagano,J.Brissett,new coach + new QB
+IND,2019,4.2725,drive_No-huddle,less,Frank Reich,J.Brissett,0.0,1.0,Frank Reich,A.Luck,new QB only
+IND,2020,1.8817,drive_No-huddle,more,Frank Reich,P.Rivers,0.0,1.0,Frank Reich,J.Brissett,new QB only
+IND,2021,3.1172,drive_No-huddle,less,Frank Reich,C.Wentz,0.0,1.0,Frank Reich,P.Rivers,new QB only
+IND,2022,5.1695,drive_No-huddle,more,Frank Reich,M.Ryan,0.0,1.0,Frank Reich,C.Wentz,new QB only
+IND,2023,2.2529,drive_Hurry-up,more,Shane Steichen,G.Minshew,1.0,1.0,Frank Reich,M.Ryan,new coach + new QB
+IND,2024,4.8787,drive_No-huddle,less,Shane Steichen,A.Richardson,0.0,1.0,Shane Steichen,G.Minshew,new QB only
+IND,2025,3.5368,"open_Pass-only, up-tempo",more,Shane Steichen,D.Jones,0.0,1.0,Shane Steichen,A.Richardson,new QB only
+JAX,2017,4.6446,open_Balanced (outside runs),less,Doug Marrone,B.Bortles,1.0,0.0,Gus Bradley,B.Bortles,new coach only
+JAX,2018,3.2502,open_Deep-shot,less,Doug Marrone,B.Bortles,0.0,0.0,Doug Marrone,B.Bortles,no change
+JAX,2019,3.8281,drive_Ground-based,less,Doug Marrone,G.Minshew II,0.0,1.0,Doug Marrone,B.Bortles,new QB only
+JAX,2020,2.6664,"open_Pass-only, up-tempo",less,Doug Marrone,G.Minshew II,0.0,0.0,Doug Marrone,G.Minshew II,no change
+JAX,2021,2.5089,drive_Vertical,more,Urban Meyer,T.Lawrence,1.0,1.0,Doug Marrone,G.Minshew II,new coach + new QB
+JAX,2022,3.688,drive_Vertical,less,Doug Pederson,T.Lawrence,1.0,0.0,Urban Meyer,T.Lawrence,new coach only
+JAX,2023,2.6134,"open_Pass-only, up-tempo",more,Doug Pederson,T.Lawrence,0.0,0.0,Doug Pederson,T.Lawrence,no change
+JAX,2024,2.7294,open_Balanced (inside runs),more,Doug Pederson,T.Lawrence,0.0,0.0,Doug Pederson,T.Lawrence,no change
+JAX,2025,2.1745,open_Balanced (inside runs),less,Liam Coen,T.Lawrence,1.0,0.0,Doug Pederson,T.Lawrence,new coach only
+KC,2017,2.3832,drive_Ground-based,less,Andy Reid,A.Smith,0.0,0.0,Andy Reid,A.Smith,no change
+KC,2018,2.8032,open_Deep-shot,more,Andy Reid,P.Mahomes,0.0,1.0,Andy Reid,A.Smith,new QB only
+KC,2019,1.6213,open_Deep-shot,less,Andy Reid,P.Mahomes,0.0,0.0,Andy Reid,P.Mahomes,no change
+KC,2020,2.0029,drive_Vertical,less,Andy Reid,P.Mahomes,0.0,0.0,Andy Reid,P.Mahomes,no change
+KC,2021,4.7211,drive_Quick-game,more,Andy Reid,P.Mahomes,0.0,0.0,Andy Reid,P.Mahomes,no change
+KC,2022,3.5235,open_Deep-shot,more,Andy Reid,P.Mahomes,0.0,0.0,Andy Reid,P.Mahomes,no change
+KC,2023,3.0305,open_Deep-shot,less,Andy Reid,P.Mahomes,0.0,0.0,Andy Reid,P.Mahomes,no change
+KC,2024,2.1526,open_Deep-shot,more,Andy Reid,P.Mahomes,0.0,0.0,Andy Reid,P.Mahomes,no change
+KC,2025,1.7659,open_Balanced (outside runs),less,Andy Reid,P.Mahomes,0.0,0.0,Andy Reid,P.Mahomes,no change
+LA,2017,5.4795,drive_No-huddle,more,Sean McVay,J.Goff,1.0,1.0,Jeff Fisher,C.Keenum,new coach + new QB
+LA,2018,3.3889,open_Deep-shot,more,Sean McVay,J.Goff,0.0,0.0,Sean McVay,J.Goff,no change
+LA,2019,3.5579,open_Deep-shot,less,Sean McVay,J.Goff,0.0,0.0,Sean McVay,J.Goff,no change
+LA,2020,2.9559,open_Run-first,more,Sean McVay,J.Goff,0.0,0.0,Sean McVay,J.Goff,no change
+LA,2021,3.2688,open_Run-first,less,Sean McVay,M.Stafford,0.0,1.0,Sean McVay,J.Goff,new QB only
+LA,2022,3.6208,drive_Hurry-up,less,Sean McVay,M.Stafford,0.0,0.0,Sean McVay,M.Stafford,no change
+LA,2023,2.8498,drive_Quick-game,less,Sean McVay,M.Stafford,0.0,0.0,Sean McVay,M.Stafford,no change
+LA,2024,1.6424,drive_No-huddle,less,Sean McVay,M.Stafford,0.0,0.0,Sean McVay,M.Stafford,no change
+LA,2025,3.2329,drive_Ground-based,less,Sean McVay,M.Stafford,0.0,0.0,Sean McVay,M.Stafford,no change
+LAC,2017,4.4929,open_Balanced (outside runs),more,Anthony Lynn,P.Rivers,1.0,0.0,Mike McCoy,P.Rivers,new coach only
+LAC,2018,3.4531,open_Deep-shot,more,Anthony Lynn,P.Rivers,0.0,0.0,Anthony Lynn,P.Rivers,no change
+LAC,2019,2.6735,open_Balanced (inside runs),less,Anthony Lynn,P.Rivers,0.0,0.0,Anthony Lynn,P.Rivers,no change
+LAC,2020,2.6639,open_Balanced (inside runs),more,Anthony Lynn,J.Herbert,0.0,1.0,Anthony Lynn,P.Rivers,new QB only
+LAC,2021,2.8466,drive_Vertical,less,Brandon Staley,J.Herbert,1.0,0.0,Anthony Lynn,J.Herbert,new coach only
+LAC,2022,2.7671,"open_Pass-only, up-tempo",more,Brandon Staley,J.Herbert,0.0,0.0,Brandon Staley,J.Herbert,no change
+LAC,2023,4.7617,drive_No-huddle,more,Brandon Staley,J.Herbert,0.0,0.0,Brandon Staley,J.Herbert,no change
+LAC,2024,5.5821,drive_No-huddle,less,Jim Harbaugh,J.Herbert,1.0,0.0,Brandon Staley,J.Herbert,new coach only
+LAC,2025,2.8407,open_Balanced (inside runs),more,Jim Harbaugh,J.Herbert,0.0,0.0,Jim Harbaugh,J.Herbert,no change
+LV,2017,2.1381,open_Balanced (outside runs),more,Jack Del Rio,D.Carr,0.0,0.0,Jack Del Rio,D.Carr,no change
+LV,2018,2.7279,open_Deep-shot,more,Jon Gruden,D.Carr,1.0,0.0,Jack Del Rio,D.Carr,new coach only
+LV,2019,3.5833,open_Run-first,more,Jon Gruden,D.Carr,0.0,0.0,Jon Gruden,D.Carr,no change
+LV,2020,3.6187,drive_Vertical,more,Jon Gruden,D.Carr,0.0,0.0,Jon Gruden,D.Carr,no change
+LV,2021,3.2936,"open_Pass-only, up-tempo",more,Rich Bisaccia,D.Carr,1.0,0.0,Jon Gruden,D.Carr,new coach only
+LV,2022,3.4482,"open_Pass-only, up-tempo",less,Josh McDaniels,D.Carr,1.0,0.0,Rich Bisaccia,D.Carr,new coach only
+LV,2023,1.5903,open_Balanced (inside runs),more,Antonio Pierce,A.O'Connell,1.0,1.0,Josh McDaniels,D.Carr,new coach + new QB
+LV,2024,2.0543,"open_Pass-only, up-tempo",more,Antonio Pierce,G.Minshew,0.0,1.0,Antonio Pierce,A.O'Connell,new QB only
+LV,2025,1.6138,drive_Ground-based,less,Pete Carroll,G.Smith,1.0,1.0,Antonio Pierce,G.Minshew,new coach + new QB
+MIA,2017,4.4129,open_Balanced (inside runs),more,Adam Gase,J.Cutler,0.0,1.0,Adam Gase,R.Tannehill,new QB only
+MIA,2018,2.8744,drive_No-huddle,more,Adam Gase,R.Tannehill,0.0,1.0,Adam Gase,J.Cutler,new QB only
+MIA,2019,5.7185,drive_No-huddle,less,Brian Flores,R.Fitzpatrick,1.0,1.0,Adam Gase,R.Tannehill,new coach + new QB
+MIA,2020,2.4601,drive_No-huddle,more,Brian Flores,T.Tagovailoa,0.0,1.0,Brian Flores,R.Fitzpatrick,new QB only
+MIA,2021,1.6033,"open_Pass-only, up-tempo",less,Brian Flores,T.Tagovailoa,0.0,0.0,Brian Flores,T.Tagovailoa,no change
+MIA,2022,6.0628,open_Deep-shot,more,Mike McDaniel,T.Tagovailoa,1.0,0.0,Brian Flores,T.Tagovailoa,new coach only
+MIA,2023,3.649,open_Balanced (outside runs),more,Mike McDaniel,T.Tagovailoa,0.0,0.0,Mike McDaniel,T.Tagovailoa,no change
+MIA,2024,4.1352,open_Deep-shot,less,Mike McDaniel,T.Tagovailoa,0.0,0.0,Mike McDaniel,T.Tagovailoa,no change
+MIA,2025,2.7987,drive_Quick-game,less,Mike McDaniel,T.Tagovailoa,0.0,0.0,Mike McDaniel,T.Tagovailoa,no change
+MIN,2017,3.3794,drive_Quick-game,less,Mike Zimmer,C.Keenum,0.0,1.0,Mike Zimmer,S.Bradford,new QB only
+MIN,2018,3.035,open_Balanced (inside runs),less,Mike Zimmer,K.Cousins,0.0,1.0,Mike Zimmer,C.Keenum,new QB only
+MIN,2019,4.8144,drive_Ground-based,more,Mike Zimmer,K.Cousins,0.0,0.0,Mike Zimmer,K.Cousins,no change
+MIN,2020,3.7319,open_Deep-shot,more,Mike Zimmer,K.Cousins,0.0,0.0,Mike Zimmer,K.Cousins,no change
+MIN,2021,1.8982,open_Deep-shot,less,Mike Zimmer,K.Cousins,0.0,0.0,Mike Zimmer,K.Cousins,no change
+MIN,2022,3.4259,drive_Ground-based,less,Kevin O'Connell,K.Cousins,1.0,0.0,Mike Zimmer,K.Cousins,new coach only
+MIN,2023,2.8081,drive_Quick-game,less,Kevin O'Connell,K.Cousins,0.0,0.0,Kevin O'Connell,K.Cousins,no change
+MIN,2024,3.1089,drive_No-huddle,less,Kevin O'Connell,S.Darnold,0.0,1.0,Kevin O'Connell,K.Cousins,new QB only
+MIN,2025,3.1381,drive_Hurry-up,less,Kevin O'Connell,J.McCarthy,0.0,1.0,Kevin O'Connell,S.Darnold,new QB only
+NE,2017,2.5171,drive_Vertical,more,Bill Belichick,T.Brady,0.0,0.0,Bill Belichick,T.Brady,no change
+NE,2018,4.4696,drive_Ground-based,more,Bill Belichick,T.Brady,0.0,0.0,Bill Belichick,T.Brady,no change
+NE,2019,3.3585,"open_Pass-only, up-tempo",more,Bill Belichick,T.Brady,0.0,0.0,Bill Belichick,T.Brady,no change
+NE,2020,6.3698,"open_Pass-only, up-tempo",less,Bill Belichick,C.Newton,0.0,1.0,Bill Belichick,T.Brady,new QB only
+NE,2021,5.2166,drive_No-huddle,less,Bill Belichick,M.Jones,0.0,1.0,Bill Belichick,C.Newton,new QB only
+NE,2022,5.2047,open_Balanced (inside runs),more,Bill Belichick,M.Jones,0.0,0.0,Bill Belichick,M.Jones,no change
+NE,2023,3.0456,drive_No-huddle,more,Bill Belichick,M.Jones,0.0,0.0,Bill Belichick,M.Jones,no change
+NE,2024,3.3608,drive_No-huddle,less,Jerod Mayo,D.Maye,1.0,1.0,Bill Belichick,M.Jones,new coach + new QB
+NE,2025,3.8803,drive_Vertical,more,Mike Vrabel,D.Maye,1.0,0.0,Jerod Mayo,D.Maye,new coach only
+NO,2017,2.5864,drive_Vertical,more,Sean Payton,D.Brees,0.0,0.0,Sean Payton,D.Brees,no change
+NO,2018,1.3313,drive_Hurry-up,less,Sean Payton,D.Brees,0.0,0.0,Sean Payton,D.Brees,no change
+NO,2019,3.3671,drive_Ground-based,less,Sean Payton,D.Brees,0.0,0.0,Sean Payton,D.Brees,no change
+NO,2020,4.4124,drive_Ground-based,more,Sean Payton,D.Brees,0.0,0.0,Sean Payton,D.Brees,no change
+NO,2021,2.795,drive_Vertical,more,Sean Payton,T.Siemian,0.0,1.0,Sean Payton,D.Brees,new QB only
+NO,2022,3.3677,drive_Quick-game,less,Dennis Allen,A.Dalton,1.0,1.0,Sean Payton,T.Siemian,new coach + new QB
+NO,2023,3.9283,drive_Ground-based,less,Dennis Allen,D.Carr,0.0,1.0,Dennis Allen,A.Dalton,new QB only
+NO,2024,4.4578,open_Balanced (inside runs),less,Dennis Allen,D.Carr,0.0,0.0,Dennis Allen,D.Carr,no change
+NO,2025,6.1917,drive_No-huddle,more,Kellen Moore,T.Shough,1.0,1.0,Dennis Allen,D.Carr,new coach + new QB
+NYG,2017,3.858,drive_Quick-game,more,Ben McAdoo,E.Manning,0.0,0.0,Ben McAdoo,E.Manning,no change
+NYG,2018,6.5875,drive_No-huddle,less,Pat Shurmur,E.Manning,1.0,0.0,Ben McAdoo,E.Manning,new coach only
+NYG,2019,2.9517,open_Balanced (inside runs),more,Pat Shurmur,D.Jones,0.0,1.0,Pat Shurmur,E.Manning,new QB only
+NYG,2020,5.4331,drive_No-huddle,more,Joe Judge,D.Jones,1.0,0.0,Pat Shurmur,D.Jones,new coach only
+NYG,2021,2.5334,open_Run-first,less,Joe Judge,D.Jones,0.0,0.0,Joe Judge,D.Jones,no change
+NYG,2022,6.2472,drive_No-huddle,less,Brian Daboll,D.Jones,1.0,0.0,Joe Judge,D.Jones,new coach only
+NYG,2023,2.4317,drive_Vertical,more,Brian Daboll,T.DeVito,0.0,1.0,Brian Daboll,D.Jones,new QB only
+NYG,2024,2.862,"open_Pass-only, up-tempo",less,Brian Daboll,D.Jones,0.0,1.0,Brian Daboll,T.DeVito,new QB only
+NYG,2025,5.2948,drive_No-huddle,more,Brian Daboll,J.Dart,0.0,1.0,Brian Daboll,D.Jones,new QB only
+NYJ,2017,3.1859,open_Deep-shot,less,Todd Bowles,J.McCown,0.0,1.0,Todd Bowles,R.Fitzpatrick,new QB only
+NYJ,2018,2.2905,open_Balanced (outside runs),less,Todd Bowles,S.Darnold,0.0,1.0,Todd Bowles,J.McCown,new QB only
+NYJ,2019,4.5021,open_Balanced (inside runs),more,Adam Gase,S.Darnold,1.0,0.0,Todd Bowles,S.Darnold,new coach only
+NYJ,2020,4.9506,open_Balanced (inside runs),less,Adam Gase,S.Darnold,0.0,0.0,Adam Gase,S.Darnold,no change
+NYJ,2021,4.8975,drive_Vertical,less,Robert Saleh,Z.Wilson,1.0,1.0,Adam Gase,S.Darnold,new coach + new QB
+NYJ,2022,4.1173,open_Deep-shot,more,Robert Saleh,Z.Wilson,0.0,0.0,Robert Saleh,Z.Wilson,no change
+NYJ,2023,4.5169,drive_Vertical,less,Robert Saleh,Z.Wilson,0.0,0.0,Robert Saleh,Z.Wilson,no change
+NYJ,2024,3.1671,drive_Ground-based,less,Robert Saleh,A.Rodgers,0.0,1.0,Robert Saleh,Z.Wilson,new QB only
+NYJ,2025,5.8675,drive_Ground-based,more,Aaron Glenn,J.Fields,1.0,1.0,Robert Saleh,A.Rodgers,new coach + new QB
+PHI,2017,4.2333,open_Balanced (inside runs),more,Doug Pederson,C.Wentz,0.0,0.0,Doug Pederson,C.Wentz,no change
+PHI,2018,2.8359,drive_Quick-game,more,Doug Pederson,C.Wentz,0.0,0.0,Doug Pederson,C.Wentz,no change
+PHI,2019,2.8943,open_Run-first,more,Doug Pederson,C.Wentz,0.0,0.0,Doug Pederson,C.Wentz,no change
+PHI,2020,3.6249,drive_Quick-game,less,Doug Pederson,C.Wentz,0.0,0.0,Doug Pederson,C.Wentz,no change
+PHI,2021,1.766,drive_Hurry-up,more,Nick Sirianni,J.Hurts,1.0,1.0,Doug Pederson,C.Wentz,new coach + new QB
+PHI,2022,4.1459,drive_No-huddle,more,Nick Sirianni,J.Hurts,0.0,0.0,Nick Sirianni,J.Hurts,no change
+PHI,2023,3.2655,drive_No-huddle,less,Nick Sirianni,J.Hurts,0.0,0.0,Nick Sirianni,J.Hurts,no change
+PHI,2024,4.3494,drive_Hurry-up,less,Nick Sirianni,J.Hurts,0.0,0.0,Nick Sirianni,J.Hurts,no change
+PHI,2025,3.936,drive_Hurry-up,more,Nick Sirianni,J.Hurts,0.0,0.0,Nick Sirianni,J.Hurts,no change
+PIT,2017,1.8895,drive_Quick-game,less,Mike Tomlin,B.Roethlisberger,0.0,0.0,Mike Tomlin,B.Roethlisberger,no change
+PIT,2018,3.7707,drive_Vertical,less,Mike Tomlin,B.Roethlisberger,0.0,0.0,Mike Tomlin,B.Roethlisberger,no change
+PIT,2019,4.7611,drive_No-huddle,less,Mike Tomlin,M.Rudolph,0.0,1.0,Mike Tomlin,B.Roethlisberger,new QB only
+PIT,2020,3.6829,"open_Pass-only, up-tempo",more,Mike Tomlin,B.Roethlisberger,0.0,1.0,Mike Tomlin,M.Rudolph,new QB only
+PIT,2021,4.3815,"open_Pass-only, up-tempo",less,Mike Tomlin,B.Roethlisberger,0.0,0.0,Mike Tomlin,B.Roethlisberger,no change
+PIT,2022,1.9628,open_Deep-shot,more,Mike Tomlin,K.Pickett,0.0,1.0,Mike Tomlin,B.Roethlisberger,new QB only
+PIT,2023,2.6148,drive_Ground-based,more,Mike Tomlin,K.Pickett,0.0,0.0,Mike Tomlin,K.Pickett,no change
+PIT,2024,4.8509,drive_No-huddle,more,Mike Tomlin,R.Wilson,0.0,1.0,Mike Tomlin,K.Pickett,new QB only
+PIT,2025,3.986,drive_No-huddle,less,Mike Tomlin,A.Rodgers,0.0,1.0,Mike Tomlin,R.Wilson,new QB only
+SEA,2017,3.4912,open_Balanced (inside runs),less,Pete Carroll,R.Wilson,0.0,0.0,Pete Carroll,R.Wilson,no change
+SEA,2018,5.796,open_Run-first,more,Pete Carroll,R.Wilson,0.0,0.0,Pete Carroll,R.Wilson,no change
+SEA,2019,4.3979,open_Balanced (inside runs),more,Pete Carroll,R.Wilson,0.0,0.0,Pete Carroll,R.Wilson,no change
+SEA,2020,4.3054,drive_Quick-game,more,Pete Carroll,R.Wilson,0.0,0.0,Pete Carroll,R.Wilson,no change
+SEA,2021,5.637,drive_No-huddle,more,Pete Carroll,R.Wilson,0.0,0.0,Pete Carroll,R.Wilson,no change
+SEA,2022,3.2588,open_Deep-shot,less,Pete Carroll,G.Smith,0.0,1.0,Pete Carroll,R.Wilson,new QB only
+SEA,2023,2.1066,open_Balanced (outside runs),more,Pete Carroll,G.Smith,0.0,0.0,Pete Carroll,G.Smith,no change
+SEA,2024,2.4903,drive_Hurry-up,more,Mike Macdonald,G.Smith,1.0,0.0,Pete Carroll,G.Smith,new coach only
+SEA,2025,5.423,drive_No-huddle,less,Mike Macdonald,S.Darnold,0.0,1.0,Mike Macdonald,G.Smith,new QB only
+SF,2017,8.2355,drive_No-huddle,less,Kyle Shanahan,C.Beathard,1.0,1.0,Chip Kelly,C.Kaepernick,new coach + new QB
+SF,2018,3.6765,open_Deep-shot,less,Kyle Shanahan,N.Mullens,0.0,1.0,Kyle Shanahan,C.Beathard,new QB only
+SF,2019,2.9584,drive_Ground-based,more,Kyle Shanahan,J.Garoppolo,0.0,1.0,Kyle Shanahan,N.Mullens,new QB only
+SF,2020,1.2665,"open_Pass-only, up-tempo",less,Kyle Shanahan,N.Mullens,0.0,1.0,Kyle Shanahan,J.Garoppolo,new QB only
+SF,2021,1.9418,"open_Pass-only, up-tempo",more,Kyle Shanahan,J.Garoppolo,0.0,1.0,Kyle Shanahan,N.Mullens,new QB only
+SF,2022,3.3975,open_Run-first,less,Kyle Shanahan,J.Garoppolo,0.0,0.0,Kyle Shanahan,J.Garoppolo,no change
+SF,2023,3.0442,drive_Vertical,more,Kyle Shanahan,B.Purdy,0.0,1.0,Kyle Shanahan,J.Garoppolo,new QB only
+SF,2024,2.7619,drive_Hurry-up,more,Kyle Shanahan,B.Purdy,0.0,0.0,Kyle Shanahan,B.Purdy,no change
+SF,2025,4.1268,open_Deep-shot,less,Kyle Shanahan,B.Purdy,0.0,0.0,Kyle Shanahan,B.Purdy,no change
+TB,2017,4.587,open_Run-first,less,Dirk Koetter,J.Winston,0.0,0.0,Dirk Koetter,J.Winston,no change
+TB,2018,3.2866,drive_Ground-based,less,Dirk Koetter,J.Winston,0.0,0.0,Dirk Koetter,J.Winston,no change
+TB,2019,4.1418,open_Run-first,more,Bruce Arians,J.Winston,1.0,0.0,Dirk Koetter,J.Winston,new coach only
+TB,2020,1.7984,drive_Vertical,more,Bruce Arians,T.Brady,0.0,1.0,Bruce Arians,J.Winston,new QB only
+TB,2021,5.0684,drive_No-huddle,more,Bruce Arians,T.Brady,0.0,0.0,Bruce Arians,T.Brady,no change
+TB,2022,2.3037,open_Deep-shot,less,Todd Bowles,T.Brady,1.0,0.0,Bruce Arians,T.Brady,new coach only
+TB,2023,3.1668,drive_No-huddle,less,Todd Bowles,B.Mayfield,0.0,1.0,Todd Bowles,T.Brady,new QB only
+TB,2024,3.2601,drive_No-huddle,less,Todd Bowles,B.Mayfield,0.0,0.0,Todd Bowles,B.Mayfield,no change
+TB,2025,2.4921,open_Balanced (outside runs),less,Todd Bowles,B.Mayfield,0.0,0.0,Todd Bowles,B.Mayfield,no change
+TEN,2017,3.2207,drive_Ground-based,less,Mike Mularkey,M.Mariota,0.0,0.0,Mike Mularkey,M.Mariota,no change
+TEN,2018,2.5895,"open_Pass-only, up-tempo",less,Mike Vrabel,M.Mariota,1.0,0.0,Mike Mularkey,M.Mariota,new coach only
+TEN,2019,1.6788,drive_Hurry-up,less,Mike Vrabel,R.Tannehill,0.0,1.0,Mike Vrabel,M.Mariota,new QB only
+TEN,2020,3.4811,open_Balanced (inside runs),less,Mike Vrabel,R.Tannehill,0.0,0.0,Mike Vrabel,R.Tannehill,no change
+TEN,2021,2.3195,open_Balanced (inside runs),more,Mike Vrabel,R.Tannehill,0.0,0.0,Mike Vrabel,R.Tannehill,no change
+TEN,2022,2.1145,open_Deep-shot,less,Mike Vrabel,R.Tannehill,0.0,0.0,Mike Vrabel,R.Tannehill,no change
+TEN,2023,3.6384,drive_Vertical,more,Mike Vrabel,W.Levis,0.0,1.0,Mike Vrabel,R.Tannehill,new QB only
+TEN,2024,4.5791,drive_Vertical,less,Brian Callahan,W.Levis,1.0,0.0,Mike Vrabel,W.Levis,new coach only
+TEN,2025,2.6585,drive_Ground-based,less,Brian Callahan,C.Ward,0.0,1.0,Brian Callahan,W.Levis,new QB only
+WAS,2017,1.8025,open_Balanced (outside runs),more,Jay Gruden,K.Cousins,0.0,0.0,Jay Gruden,K.Cousins,no change
+WAS,2018,2.5991,drive_Quick-game,less,Jay Gruden,A.Smith,0.0,1.0,Jay Gruden,K.Cousins,new QB only
+WAS,2019,2.9329,open_Balanced (outside runs),less,Bill Callahan,C.Keenum,1.0,1.0,Jay Gruden,A.Smith,new coach + new QB
+WAS,2020,4.6367,open_Run-first,less,Ron Rivera,A.Smith,1.0,1.0,Bill Callahan,C.Keenum,new coach + new QB
+WAS,2021,3.1974,drive_Quick-game,less,Ron Rivera,T.Heinicke,0.0,1.0,Ron Rivera,A.Smith,new QB only
+WAS,2022,3.0578,open_Run-first,more,Ron Rivera,C.Wentz,0.0,1.0,Ron Rivera,T.Heinicke,new QB only
+WAS,2023,5.4964,open_Deep-shot,less,Ron Rivera,S.Howell,0.0,1.0,Ron Rivera,C.Wentz,new QB only
+WAS,2024,9.2142,drive_Quick-game,less,Dan Quinn,J.Daniels,1.0,1.0,Ron Rivera,S.Howell,new coach + new QB
+WAS,2025,3.2691,open_Deep-shot,more,Dan Quinn,M.Mariota,0.0,1.0,Dan Quinn,J.Daniels,new QB only

@@ -1,0 +1,25 @@
+model,kind,log_loss,brier,auc,target,improvement,lo,hi
+base rate,constant,0.68918,0.24802,0.5,scored,,,
+context,logit,0.66124,0.2346,0.62971,scored,,,
+context,gbm,0.66242,0.23518,0.62691,scored,,,
+context+style,logit,0.6561,0.23209,0.64477,scored,,,
+context+style,gbm,0.65717,0.23276,0.64076,scored,,,
+context+progress,logit,0.59999,0.20716,0.73288,scored,,,
+context+progress,gbm,0.60038,0.20732,0.73268,scored,,,
+context+style+progress,logit,0.60093,0.20756,0.73179,scored,,,
+context+style+progress,gbm,0.60064,0.20745,0.73234,scored,,,
+style on top of context,increment,,,,scored,0.00514,0.00268,0.00755
+progress on top of context,increment,,,,scored,0.06126,0.055,0.06837
+style on top of context+progress,increment,,,,scored,-0.00095,-0.00193,-8e-05
+base rate,constant,0.61607,0.21246,0.5,touchdown,,,
+context,logit,0.5976,0.20474,0.61484,touchdown,,,
+context,gbm,0.59879,0.20521,0.61394,touchdown,,,
+context+style,logit,0.59682,0.20446,0.61947,touchdown,,,
+context+style,gbm,0.59729,0.20464,0.61885,touchdown,,,
+context+progress,logit,0.56977,0.1931,0.68071,touchdown,,,
+context+progress,gbm,0.57039,0.19332,0.68146,touchdown,,,
+context+style+progress,logit,0.57115,0.19371,0.67875,touchdown,,,
+context+style+progress,gbm,0.57107,0.19362,0.68056,touchdown,,,
+style on top of context,increment,,,,touchdown,0.00078,-0.00082,0.00252
+progress on top of context,increment,,,,touchdown,0.02783,0.02327,0.03354
+style on top of context+progress,increment,,,,touchdown,-0.00139,-0.00263,-0.00038

@@ -1,0 +1,37 @@
+feature_or_group,is_group,delta_log_loss,target
+"progress (yards, EPA, down/distance...)",True,0.17033,scored
+yardline_100_4,False,0.1232,scored
+down_4,False,0.0209,scored
+context,True,0.00621,scored
+ydstogo_4,False,0.00478,scored
+off_strength,False,0.00384,scored
+epa_3,False,0.00193,scored
+wp_start,False,0.0006,scored
+def_strength,False,0.00046,scored
+secs_3,False,0.00041,scored
+yards_3,False,0.00039,scored
+start_yardline_100,False,0.0003,scored
+score_diff,False,0.00023,scored
+half_secs,False,0.00016,scored
+opening style,True,6e-05,scored
+first_downs_3,False,1e-05,scored
+sacks_3,False,0.0,scored
+negative_3,False,-1e-05,scored
+"progress (yards, EPA, down/distance...)",True,0.06291,touchdown
+yardline_100_4,False,0.0349,touchdown
+context,True,0.01524,touchdown
+down_4,False,0.01296,touchdown
+off_strength,False,0.00806,touchdown
+half_secs,False,0.00585,touchdown
+ydstogo_4,False,0.00445,touchdown
+epa_3,False,0.00226,touchdown
+wp_start,False,0.00045,touchdown
+start_yardline_100,False,0.00025,touchdown
+score_diff,False,0.00018,touchdown
+def_strength,False,0.00013,touchdown
+yards_3,False,4e-05,touchdown
+first_downs_3,False,1e-05,touchdown
+sacks_3,False,0.0,touchdown
+negative_3,False,-3e-05,touchdown
+opening style,True,-4e-05,touchdown
+secs_3,False,-8e-05,touchdown
