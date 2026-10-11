@@ -31,11 +31,13 @@ SPLINE_CONTROLS = ["start_yardline_100", "score_diff", "half_secs", "wp_start"]
 LINEAR_CONTROLS = ["off_strength", "def_strength"]
 
 
-def _preprocessor(styles: list[str], cat_controls: list[str]) -> ColumnTransformer:
+def _preprocessor(
+    styles: list[str], cat_controls: list[str], linear_controls: list[str] | None = None
+) -> ColumnTransformer:
     return ColumnTransformer([
         ("spline", Pipeline([("s", SplineTransformer(n_knots=5, degree=3)), ("z", StandardScaler())]),
          SPLINE_CONTROLS),
-        ("linear", StandardScaler(), LINEAR_CONTROLS),
+        ("linear", StandardScaler(), LINEAR_CONTROLS if linear_controls is None else linear_controls),
         ("cat", OneHotEncoder(handle_unknown="ignore"), cat_controls),
         ("style", OneHotEncoder(categories=[styles], drop="first"), ["style"]),
     ])
@@ -54,10 +56,11 @@ class OutcomeModels:
 
     @classmethod
     def fit(
-        cls, df: pd.DataFrame, styles: list[str], cat_controls: list[str] | None = None, c: float = 5.0
+        cls, df: pd.DataFrame, styles: list[str], cat_controls: list[str] | None = None, c: float = 5.0,
+        linear_controls: list[str] | None = None,
     ) -> "OutcomeModels":
         cat_controls = list(CATEGORICAL_CONTROLS) if cat_controls is None else cat_controls
-        pre = _preprocessor(styles, cat_controls)
+        pre = _preprocessor(styles, cat_controls, linear_controls)
         x = pre.fit_transform(df)
         clf = LogisticRegression(C=c, max_iter=1000).fit(x, pd.Categorical(df["outcome"], OUTCOME_CLASSES).codes)
         return cls(

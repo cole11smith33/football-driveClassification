@@ -1,0 +1,5 @@
+component,year_to_year_corr,std_across_team_seasons
+total_vs_league,0.4432,0.5091
+situation_part,0.2254,0.1498
+style_part,0.3422,0.0225
+exec_part,0.4669,0.4912
