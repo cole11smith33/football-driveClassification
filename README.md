@@ -19,6 +19,7 @@ python3 -m venv .venv && .venv/bin/pip install -e ".[dev]"
 .venv/bin/python -m drivedna.analysis.run_effectiveness   # 4. adjusted style effects (~20 min)
 .venv/bin/python -m drivedna.analysis.run_secondary       # 4. call sequences + early-drive prediction
 .venv/bin/python -m drivedna.analysis.run_teams           # 5. team DNA, similarity, change events, execution
+.venv/bin/python -m drivedna.analysis.run_defenses        # 6. defense tendencies, style x defense, situations
 .venv/bin/pytest                                          # tests (need the data/reports above)
 ```
 
@@ -31,6 +32,7 @@ Notebooks in `notebooks/` are thin: they read the saved reports and plot. Logic 
 | 3 Styles | `models/cluster.py` | `drive_styles.parquet`, `reports/stability.json`, `k_stability.csv` |
 | 4 What works | `analysis/effectiveness.py`, `sequences.py`, `early.py` | `reports/effectiveness.csv`, `sequences_*.csv`, `early_*.csv` |
 | 5 Teams | `analysis/teams.py` | `reports/team_season_dna.csv`, `change_event_summary.csv`, `performance_decomposition.csv` |
+| 6 Defenses, situations | `analysis/defenses.py`, `interactions.py`, `situations.py` | `reports/defense_season_scheme.csv`, `interaction_cv.csv`, `situation_effects_*.csv`, `depth_by_look.csv` |
 
 ## Findings so far (details and caveats in the notebooks)
 
@@ -44,5 +46,9 @@ Notebooks in `notebooks/` are thin: they read the saved reports and plot. Logic 
   is execution; opening-style choices contribute almost none. Team style tendencies are real but partly
   persistent, follow play-callers (e.g. one coach's no-huddle fingerprint at two teams), and a new head coach
   moves them more than a new QB does.
+
+- **Defenses have real scheme tendencies but only two archetypes** (aggressive vs light). The value of an
+  opening style does not detectably depend on the defense. Mid-depth passes are the reliable call, deep
+  passes are boom-or-bust, and the deep-pass edge shrinks against blitzes and man coverage.
 
 All estimates are observational: they adjust for what is measured, not for everything a coach sees.

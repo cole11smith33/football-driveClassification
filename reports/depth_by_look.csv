@@ -1,0 +1,13 @@
+look,call,n,share,raw_mean,effect,lo,hi,significant,n_attempts,look_type
+4 or fewer rushers,P_short,59272,0.5279,-0.0179,-0.1883,-0.1953,-0.1803,True,112281,blitz
+4 or fewer rushers,P_mid,30913,0.2753,0.2849,0.1262,0.1138,0.1379,True,112281,blitz
+4 or fewer rushers,P_deep,22096,0.1968,0.4857,0.3286,0.3067,0.3498,True,112281,blitz
+blitz (5+ rushers),P_short,21320,0.4843,0.0279,-0.1707,-0.1848,-0.1571,True,44025,blitz
+blitz (5+ rushers),P_mid,13312,0.3024,0.3118,0.1319,0.1078,0.1533,True,44025,blitz
+blitz (5+ rushers),P_deep,9393,0.2134,0.3825,0.2006,0.1773,0.2243,True,44025,blitz
+zone coverage,P_short,43779,0.551,-0.0083,-0.1933,-0.2006,-0.1877,True,79451,man/zone (2018+)
+zone coverage,P_mid,20829,0.2622,0.3218,0.1466,0.1316,0.162,True,79451,man/zone (2018+)
+zone coverage,P_deep,14843,0.1868,0.5353,0.3643,0.3467,0.3931,True,79451,man/zone (2018+)
+man coverage,P_short,21310,0.4676,0.0019,-0.1672,-0.1794,-0.1522,True,45570,man/zone (2018+)
+man coverage,P_mid,14092,0.3092,0.2699,0.1163,0.0904,0.1346,True,45570,man/zone (2018+)
+man coverage,P_deep,10168,0.2231,0.343,0.1892,0.1576,0.2254,True,45570,man/zone (2018+)
