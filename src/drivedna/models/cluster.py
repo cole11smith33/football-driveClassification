@@ -20,6 +20,7 @@ Design choices (each backed by experiments in notebooks/02_styles.ipynb):
 """
 import itertools
 import json
+from collections.abc import Callable
 from dataclasses import dataclass, field
 
 import joblib
@@ -87,6 +88,10 @@ class StyleModel:
     var_explained: float = PCA_VARIANCE
     seed: int = 0
     features: list[str] = field(default_factory=lambda: list(STYLE_FEATURES))
+    # how to name clusters, and the canonical id order for those names (see openings.py for a
+    # second naming scheme: the whole-drive rules would mislabel clusters built on 3 plays)
+    namer: Callable[[pd.DataFrame], dict[int, str]] = name_clusters
+    canonical_order: list[str] = field(default_factory=lambda: list(STYLE_ORDER))
 
     def _raw(self, df: pl.DataFrame) -> tuple[np.ndarray, np.ndarray]:
         x = df.select(self.features).to_numpy().astype(float)
@@ -118,8 +123,9 @@ class StyleModel:
 
         # name clusters from their (unshrunk) mean features, then relabel into canonical order
         raw_profile = pd.DataFrame(x_imp, columns=self.features).groupby(km.labels_).mean()
-        names = name_clusters(raw_profile)
-        order = STYLE_ORDER if set(names.values()) == set(STYLE_ORDER) else [names[c] for c in sorted(names)]
+        names = self.namer(raw_profile)
+        canonical = set(names.values()) == set(self.canonical_order)
+        order = self.canonical_order if canonical else [names[c] for c in sorted(names)]
         self.style_names_ = order
         self.label_map_ = {raw: order.index(name) for raw, name in names.items()}
         self.kmeans_ = km

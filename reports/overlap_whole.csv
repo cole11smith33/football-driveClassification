@@ -1,0 +1,6 @@
+style,mean_own_propensity,share_below_0_05,context_only_accuracy
+Ground-based,0.2459,0.0039,0.0674
+Hurry-up,0.3879,0.0295,0.4987
+No-huddle,0.089,0.1822,0.0045
+Quick-game,0.3837,0.0027,0.9348
+Vertical,0.219,0.0078,0.0
