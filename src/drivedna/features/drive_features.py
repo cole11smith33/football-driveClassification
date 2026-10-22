@@ -19,11 +19,13 @@ from drivedna.features.outcomes import OUTCOME_COLS, add_outcomes
 
 STYLE_FEATURES = [
     "pass_rate", "early_down_pass_rate", "proe", "mean_air_yards", "deep_pass_share",
-    "short_pass_share", "sideline_pass_share", "scramble_rate", "inside_run_share",
+    "short_pass_share", "sideline_pass_share", "inside_run_share",
     "shotgun_rate", "no_huddle_rate", "sec_per_play",
 ]
+# scramble_rate is here, not in STYLE_FEATURES: scrambles are partly a reaction to pressure and gain
+# yards, so clustering on it produced a cluster that was mostly "this drive had a scramble".
 RHYTHM_FEATURES = [
-    "third_down_share", "mean_third_ydstogo", "early_down_success_rate", "explosive_rate",
+    "scramble_rate", "third_down_share", "mean_third_ydstogo", "early_down_success_rate", "explosive_rate",
     "negative_play_rate", "epa_per_play",
 ]
 CONTEXT_COLS = [

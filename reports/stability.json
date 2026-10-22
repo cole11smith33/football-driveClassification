@@ -1,0 +1,42 @@
+{
+  "bootstrap": {
+    "n_boot": 30,
+    "ari_mean": 0.9476612691341292,
+    "ari_min": 0.5795560656269969,
+    "frac_below_0_8": 0.06666666666666667
+  },
+  "temporal": {
+    "split_season": 2021,
+    "ari_early_model_vs_late_model_on_late_drives": 0.9082790466689831,
+    "agreement_rate": 0.9635717649073242,
+    "style_order": [
+      "Ground-based",
+      "Quick-game",
+      "Vertical",
+      "Hurry-up",
+      "No-huddle"
+    ],
+    "share_early_model_on_early": [
+      0.214,
+      0.351,
+      0.21,
+      0.16,
+      0.065
+    ],
+    "share_early_model_on_late": [
+      0.223,
+      0.36,
+      0.19,
+      0.159,
+      0.069
+    ],
+    "share_late_model_on_late": [
+      0.224,
+      0.351,
+      0.201,
+      0.151,
+      0.073
+    ]
+  },
+  "n_drives": 45907
+}
