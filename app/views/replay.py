@@ -13,6 +13,7 @@ c1, c2, c3 = st.columns(3)
 season = c1.selectbox("Season", sorted(d["season"].unique(), reverse=True))
 teams = sorted(d.loc[d["season"] == season, "posteam"].unique())
 team = c2.selectbox("Offense", teams, index=teams.index("KC") if "KC" in teams else 0)
+ui.team_theme(team)
 games = d[(d["season"] == season) & (d["posteam"] == team)][["game_id", "week", "defteam", "season_type"]].drop_duplicates().sort_values(["season_type", "week"], ascending=[False, True])
 labels = {r.game_id: f"{'Playoffs' if r.season_type == 'POST' else 'Week ' + str(int(r.week))} vs {r.defteam}" for r in games.itertuples()}
 game_id = c3.selectbox("Game", list(labels), format_func=labels.get)

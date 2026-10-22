@@ -13,6 +13,7 @@ st.plotly_chart(charts.defense_scatter(tend, None if selected == "(none)" else s
 
 if selected != "(none)":
     r = tend[tend["label"] == selected].iloc[0]
+    ui.team_theme(r["defteam"])
     c = st.columns(5)
     ui.stat(c[0], "Archetype", r["archetype"])
     ui.stat(c[1], "Blitz vs. expected", f"{r['blitz_excess'] * 100:+.1f} pp", "of dropbacks")

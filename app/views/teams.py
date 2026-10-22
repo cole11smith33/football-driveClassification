@@ -16,6 +16,7 @@ c1, c2 = st.columns(2)
 team = c1.selectbox("Team", teams, index=teams.index("KC") if "KC" in teams else 0)
 seasons = sorted(dna.loc[dna["team"] == team, "season"].unique())
 season = c2.selectbox("Season", seasons, index=len(seasons) - 1)
+ui.team_theme(team)
 row = dna[(dna["team"] == team) & (dna["season"] == season)].iloc[0]
 cols = st.columns(4)
 changes = [x for x, f in [("coach", row["hc_changed"]), ("QB", row["qb_changed"])] if f == 1]
