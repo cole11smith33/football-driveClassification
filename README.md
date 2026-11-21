@@ -1,5 +1,7 @@
 # Drive DNA
 
+[![tests](https://github.com/cole11smith33/football-driveClassification/actions/workflows/tests.yml/badge.svg)](https://github.com/cole11smith33/football-driveClassification/actions/workflows/tests.yml)
+
 NFL analytics that treat the **drive** as the unit of analysis: find distinct styles of offensive
 drives, see how they develop, and test what actually separates successful drives from unsuccessful
 ones. Built on free [nflverse](https://github.com/nflverse) play-by-play, 2016 to present.
@@ -22,10 +24,17 @@ python3 -m venv .venv && .venv/bin/pip install -e ".[dev,app]"
 .venv/bin/python -m drivedna.analysis.run_defenses        # 6. defense tendencies, style x defense, situations
 .venv/bin/python -m drivedna.app.prepare                  # 8. compact tables for the app
 .venv/bin/streamlit run app/streamlit_app.py              # 8. the app (http://localhost:8501)
-.venv/bin/pytest                                          # tests (need the data/reports above)
+.venv/bin/pytest                                          # tests
+scripts/execute_notebooks.sh                              # re-run notebooks, saving outputs
 ```
 
 Notebooks in `notebooks/` are thin: they read the saved reports and plot. Logic lives in `src/drivedna/`.
+They are committed with their outputs, so the charts are readable on GitHub without running anything
+(the script saves charts as static images; open a notebook locally for interactive ones).
+
+CI runs the tests on every push and pull request. The raw play-by-play is not in the repo, so tests
+that need the full pipeline outputs skip there; unit tests, the committed reports, and the headless app
+tests (on the committed app tables in `data/processed/app_*.parquet`) all run.
 
 | Phase | Code | Output |
 |---|---|---|
