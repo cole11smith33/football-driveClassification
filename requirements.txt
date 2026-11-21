@@ -1,0 +1,3 @@
+# Streamlit Community Cloud installs from this file. The app needs the drivedna package from src/,
+# installed editable so its data paths resolve to this checkout (data/processed, reports/).
+-e .[app]

@@ -3,7 +3,6 @@ import html
 
 import streamlit as st
 
-
 # Team colours (primary, secondary, accent), used to theme the page background.
 TEAM_COLORS = {
     "ARI": ("#97233F", "#000000", "#FFB612"), "ATL": ("#A71930", "#000000", "#A5ACAF"),
