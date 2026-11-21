@@ -1,0 +1,33 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
+      - name: Install
+        run: pip install -e ".[dev,app]"
+
+      - name: Lint
+        run: ruff check src tests app
+
+      # The raw play-by-play is not in the repo, so tests that need the full pipeline outputs skip
+      # themselves. Unit tests, the committed reports, and the headless app tests (which use the
+      # committed app tables) all run.
+      - name: Test
+        run: pytest -rs

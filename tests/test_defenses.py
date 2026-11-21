@@ -21,7 +21,6 @@ from drivedna.analysis.situations import (
     call_mix,
     sack_rate_by_look,
 )
-from drivedna.drives.build import PROCESSED_DIR
 from drivedna.models.cluster import REPORTS_DIR
 
 
@@ -197,4 +196,3 @@ def test_interaction_and_situation_reports_are_well_formed():
     assert list(cv["spec"]) == ["controls only", "+ opening style", "+ style x opponent scheme"]
     sit = pd.read_csv(REPORTS_DIR / "situation_effects_epa.csv")
     assert (sit["lo"] <= sit["hi"]).all() and set(sit["call"]) == set(CALLS)
-    assert (PROCESSED_DIR / "drive_styles.parquet").exists()
