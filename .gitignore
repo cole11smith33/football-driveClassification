@@ -1,4 +1,9 @@
-/data/
+/data/*
+!/data/processed/
+/data/processed/*
+# compact tables the deployed app reads (built by drivedna.app.prepare)
+!/data/processed/app_drives.parquet
+!/data/processed/app_plays.parquet
 .venv/
 __pycache__/
 *.egg-info/
